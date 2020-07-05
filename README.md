@@ -10,9 +10,24 @@ npm install
 
 # serve with hot reload at localhost:8080
 npm run dev
-
-# build for production with minification
-npm run build
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+# store-backend
+
+> Django
+
+## Build Setup
+
+```bash
+# navigate to folder
+cd mysite
+
+# install dependencies
+pip install -r requirements.txt
+
+# migrating dependencies
+python manage.py migrate
+
+# running the server
+python manage.py runserver
+```
