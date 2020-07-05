@@ -8,7 +8,7 @@
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+# serve with hot reload at localhost:8081
 npm run dev
 ```
 
@@ -28,6 +28,6 @@ pip install -r requirements.txt
 # migrating dependencies
 python manage.py migrate
 
-# running the server
+# running the server served at http://127.0.0.1:8000
 python manage.py runserver
 ```
