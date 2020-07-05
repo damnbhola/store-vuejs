@@ -209,8 +209,8 @@ export default {
       } else if (!this.laptop.HD_capacity) {
         this.error = "*HD Capacity cannot be undefined*";
       } else {
-        console.log(this.laptop);
         this.$store.dispatch("addLaptops", this.laptop);
+        this.$router.push("/");
       }
     },
     checkLogin() {
